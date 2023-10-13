@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #faf5e8;
+  }
+
+  .main-section {
+    margin-left: 275px;
+    margin-bottom: 2em;
+    margin-right: 25px;
+  }
+
+  .main-section, nav {
+    font-family: 'futura' ,sans-serif;
+  }
+
+  header {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #db0707;
+  }
+
+  h3 {
+    color: #db0707;
+  }
+
+  p {
+    color: #e65c5c;
+    line-height: 2em;
+    text-indent: 50px;
+  }
+
+  nav {
+    width: 215px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 2px solid #db0707;
+    position: sticky;
+    right: 100%;
+    bottom: 0%;
+  }
+
+  #page-list {
+    list-style-type: none;
+    line-height: 2em;
+    position: relative;
+    right: 15%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #e65c5c;
+  }
+
+  a:hover {
+    color: #db0707;
+    text-decoration: underline;
+  }
+
+  #penant-list, #championship-list {
+    display: flex;
+    flex-wrap: wrap;
+    color: #e65c5c;
+    line-height: 1.5em;
+  }
+
+  #penant-list li, #championship-list li {
+    margin-right: 30px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .main-section {
+      width: 100%;
+    }
+  }
